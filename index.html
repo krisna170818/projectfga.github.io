@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Sederhana</title>
+
+    <!-- fontawesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <!-- header -->
+        <div class="header">
+            <h1>Tugas Individu Calculator</h1>
+        </div>
+        <hr>
+    <!-- header -->
+
+
+    <!-- isi -->
+    <div class="container">
+        <!-- layout kalkulator -->
+        <div class="layout-kalkulator">
+            <div class="layar">
+                <span class="hasil"></span>
+            </div>
+            <div class="tombol-row">
+                <div class="tombol">7</div>
+                <div class="tombol">8</div>
+                <div class="tombol">9</div>
+                <div class="tombol hapus">Hapus</div>
+            </div>
+            <div class="tombol-row">
+                <div class="tombol">4</div>
+                <div class="tombol">5</div>
+                <div class="tombol">6</div>
+                <div class="tombol operator">+</div>
+                <div class="tombol operator">*</div>
+            </div>
+            <div class="tombol-row">
+                <div class="tombol">1</div>
+                <div class="tombol">2</div>
+                <div class="tombol">3</div>
+                <div class="tombol operator">-</div>
+                <div class="tombol operator">/</div>
+            </div>
+            <div class="tombol-row">
+                <div class="tombol negatif">+/-</div>
+                <div class="tombol">0</div>
+                <div class="tombol samadengan">=</div>
+            </div>
+        </div>
+        <!-- layout kalkulator -->
+    
+        <!-- tabel history -->
+        <table class="history" border="1" cellpadding="30" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Angka Pertama</th>
+                    <th>Aksi</th>
+                    <th>Angka Kedua</th>
+                    <th>Hasil</th>
+                </tr>
+            </thead>
+            <tbody id="historyList">
+    
+            </tbody>
+        </table>
+        <!-- tabel history -->
+    </div>
+    <!-- isi -->
+
+
+    <!-- footer -->
+    <hr>
+    <div class="footer">
+        <div class="alat">
+            <h1>Tugas Akhir</h1>
+        </div>
+    </div>
+    <!-- footer -->
+
+
+    <!-- javascript -->
+    <script src="js/storage.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
